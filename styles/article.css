@@ -1,0 +1,27 @@
+.recent-post {
+  padding: 0.3in 0.5in;
+  display: flex;
+  grid-template-columns: 1fr 0.5in [start] 1.25in 5in 1.25in [end] 0.5in 1fr;
+  background-color: black;
+}
+
+article {
+  padding: 0.5in 0;
+  display: grid;
+  grid-template-columns: 1fr 0.5in [start] 1.25in 5in 1.25in [end] 0.5in 1fr;
+  background-color: black;
+}
+
+article * {
+  grid-column: start / end;
+}
+
+.extra-space {
+  margin-bottom: 1em;
+}
+
+@media (max-width: 8.5in) {
+  article {
+    grid-template-columns: 1fr 5% [start] 15% 60% 15% [end] 5% 1fr;
+  }
+}

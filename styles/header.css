@@ -1,0 +1,151 @@
+.header {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  padding-left: 50px;
+  color: white;
+}
+
+.header-article {
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 10px;
+  color: white;
+}
+
+.header h1,
+.header h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 2rem;
+  line-height: 1.3em;
+  color: white;
+}
+
+.header h2 {
+  font-size: 1.125rem;
+  color: white;
+}
+
+.header nav {
+  margin-top: 20px;
+  border-top: 1px;
+  color: white;
+}
+
+.header nav ul,
+.header nav li {
+  margin: 0;
+  color: white;
+}
+
+.header nav ul.flat {
+  padding: 0;
+  color: white;
+}
+
+.header nav ul.flat li {
+  display: inline-block;
+  list-style: none;
+  margin-left: 0;
+  margin-right: 10px;
+  margin-top: 10px;
+  text-transform: capitalize;
+  color: white;
+}
+
+.header .site-description {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+.header .site-description nav {
+  margin: 0;
+  padding: 0;
+  border: none;
+  color: white;
+}
+
+.header .site-description nav ul svg {
+  max-height: 15px;
+  color: white;
+}
+
+.section .section-header {
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: white;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+
+.recent-posts .posts .post {
+  margin-bottom: 30px;
+}
+
+.recent-posts .posts .post .meta,
+.post .post-header .meta,
+.list .posts .post .meta {
+  font-size: 0.725rem;
+  color: white;
+  margin-bottom: 4px;
+}
+
+.post .post-header {
+  margin-bottom: 30px;
+}
+
+.post .post-header .title {
+  margin: 0;
+}
+
+.post .post-header .meta {
+  padding-left: 5px;
+  margin-top: 10px;
+}
+
+.header .site-description {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+.header .site-description nav {
+  margin: 0;
+  padding: 0;
+  border: none;
+  color: white;
+}
+
+.header .site-description nav ul svg {
+  max-height: 15px;
+  color: white;
+}
+
+.ul-header {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  color: white;
+}
+
+li {
+  float: left;
+  padding: 5px;
+  color: white;
+}
+
+li a {
+  display: inline-block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: white;
+}
+
+li a:hover {
+  background-color: rgb(88, 88, 88);
+}
