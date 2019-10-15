@@ -4,49 +4,68 @@ p {
 }
 
 .h0 {
-  font: 700 3rem/1.2 "Helvetica Neue";
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  font-size: 4.4vw;
+  font-weight: 700;
   color: #f3f3ed;
 }
 
 h1 {
-  font: 700 2rem/1.2 "Helvetica Neue";
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  font-size: 3vw;
+  font-weight: 700;
   color: #f3f3ed;
 }
 h2 {
-  font: 400 1.5rem/1.2 "Helvetica Neue";
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  font-size: 3vw;
+  font-weight: 400;
   color: hsl(000, 000%, 83%);
 }
 time {
-  font: 700 1rem/1.2 "Helvetica Neue";
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  font-size: 1.4vw;
+  font-weight: 700;
   color: hsla(55, 83%, 55%, 0.63);
 }
 h3 {
-  font: 700 1rem/1.2 "Helvetica Neue";
-  font-size: 1.4rem;
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  font-size: 1.8vw;
+  font-weight: 700;
   color: hsla(55, 83%, 55%, 0.63);
 }
 p {
-  font: 400 1rem/1.5 "Helvetica Neue";
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  font-size: 1.5vw;
+  font-weight: 400;
   color: #f3f3ed;
 }
 figcaption p {
-  font: 400 1rem/1.5 "Helvetica Neue";
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  font-size: 1.5vw;
+  font-weight: 400;
   color: hsl(000, 000%, 83%);
 }
 
 ul,
 ol {
-  font: 400 1rem/1.5 "Helvetica Neue";
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  font-size: 1.5vw;
+  font-weight: 400;
   color: #f3f3ed;
 }
 
 .post-heading-large {
-  font: 700 1.8rem/1.2 "Helvetica Neue";
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  font-size: 2.7vw;
+  font-weight: 700;
   color: #f3f3ed;
 }
 
 .post-heading-medium {
-  font: 700 1.5rem/1.2 "Helvetica Neue";
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  font-size: 2.4vw;
+  font-weight: 700;
   color: #f3f3ed;
 }
 
