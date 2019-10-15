@@ -12,14 +12,14 @@ p {
 
 h1 {
   font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
-  font-size: 3vw;
+  font-size: 2.8vw;
   font-weight: 700;
   color: #f3f3ed;
 }
 h2 {
   font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
   font-size: 3vw;
-  font-weight: 400;
+  font-weight: 370;
   color: hsl(000, 000%, 83%);
 }
 time {
