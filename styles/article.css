@@ -24,4 +24,7 @@ article * {
   article {
     grid-template-columns: 1fr 5% [start] 15% 60% 15% [end] 5% 1fr;
   }
+  .recent-post {
+    grid-template-columns: 1fr 5% [start] 15% 60% 15% [end] 5% 1fr;
+  }
 }
