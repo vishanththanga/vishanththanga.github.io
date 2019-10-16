@@ -1,0 +1,384 @@
+a,
+abbr,
+acronym,
+address,
+applet,
+article,
+aside,
+audio,
+b,
+big,
+blockquote,
+body,
+canvas,
+caption,
+center,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+div,
+dl,
+dt,
+em,
+embed,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+mark,
+menu,
+nav,
+object,
+ol,
+output,
+p,
+pre,
+q,
+ruby,
+s,
+samp,
+section,
+small,
+span,
+strike,
+strong,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
+tt,
+u,
+ul,
+var,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:after,
+blockquote:before,
+q:after,
+q:before {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+a {
+  color: inherit;
+}
+.clear {
+  clear: both;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+  font-size: 1.8em;
+  line-height: 27px;
+  color: #ffffff;
+  background-color: #000;
+  padding: 60px;
+}
+section {
+  padding: 30px 0;
+  background: #fff;
+}
+footer {
+  clear: both;
+  padding: 30px 0;
+  color: #ffffff;
+  font-weight: 600;
+}
+footer a {
+  text-decoration: none;
+}
+footer .email {
+  float: right;
+  margin-right: 15px;
+}
+footer .email img {
+  width: 20px;
+  height: 20px;
+  margin-top: 5px;
+}
+footer .twitter {
+  float: right;
+  width: 20px;
+  height: 20px;
+  margin-top: 5px;
+  padding-right: 10px;
+}
+
+footer .github {
+  float: right;
+  width: 20px;
+  height: 20px;
+  margin-top: 5px;
+}
+
+footer .audio {
+  font-size: 0.5em;
+  font-family: EmojiSymbols;
+}
+footer hr {
+  margin: 30px 0;
+  background: #ddd;
+  min-height: 1px;
+  height: 1px;
+  border: none;
+}
+footer button {
+  text-overflow: ellipsis;
+}
+img {
+  width: 32px;
+  height: 32px;
+}
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.amp {
+  font-family: Baskerville;
+  font-style: italic;
+  font-weight: 400;
+}
+h1 {
+  margin: 0;
+  font-size: 2.2em;
+  line-height: 32px;
+}
+h3 {
+  font-size: 5em;
+  line-height: 100%;
+  height: 100px;
+  font-weight: 700;
+}
+h3.past {
+  text-decoration: line-through;
+}
+li {
+  float: left;
+  clear: left;
+}
+li .hidden {
+  display: none;
+}
+li .gumroad:before,
+li .painter:before,
+li .pinterest:before,
+li .spec-fic:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -2000px;
+  right: -2000px;
+  bottom: 0;
+  cursor: none !important;
+}
+
+li .gumroad:after,
+li .painter:after,
+li .pinterest:after,
+li .spec-fic:after {
+  position: absolute;
+  left: 0;
+}
+li:hover h3 {
+  opacity: 0;
+}
+li:hover .hidden {
+  opacity: 1;
+  display: block;
+  position: absolute;
+}
+li.designer-li:hover h3 {
+  pointer-events: none;
+}
+.gumroad {
+  color: #fff;
+}
+.gumroad:before {
+  background: url(/pattern1.jpg);
+}
+.gumroad:after {
+  content: "My thoughts.";
+}
+.spec-fic {
+  color: rgba(158, 18, 18, 0.74);
+}
+.spec-fic:before {
+  background: url(/pattern1.jpg);
+}
+.spec-fic:after {
+  content: "My thoughts.";
+}
+.painter {
+  /*background: url(/6a3807b1cd45946114c810055d6bd7f060192099/f503e/images/painting.jpg);*/
+  background-size: 1000px;
+  background-position: -240px 0;
+  /*-webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;*/
+}
+
+.painter:before {
+  background: #1c8812;
+}
+.painter:after {
+  content: "Hi I'm Vishanth.";
+}
+
+.pinterest {
+  color: #fff;
+}
+.pinterest:before {
+  background: #127031;
+}
+.pinterest:after {
+  content: "Content I like.";
+}
+
+.designer {
+  color: white;
+  background: #000;
+}
+.designer:before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color:rgba(196, 165, 143, 0.623);
+}
+.designer:after {
+  content: "Content I like.";
+  position: absolute;
+  left: 0;
+}
+@media (max-width: 1400px) {
+  .container {
+    max-width: 600px;
+  }
+  body {
+    padding: 40px;
+  }
+  footer {
+    padding: 20px 0;
+  }
+  h1 {
+    font-size: 2em;
+  }
+  h3 {
+    font-size: 3.5em;
+    height: 70px;
+  }
+}
+@media (max-width: 700px) {
+  body {
+    padding: 0 30px;
+  }
+  section {
+    padding: 0;
+  }
+  h1 {
+    font-size: 1.1em;
+  }
+  h3 {
+    font-size: 1.8em;
+    line-height: 42px;
+    height: 44px;
+  }
+  footer form,
+  footer hr {
+    display: none;
+  }
+  li {
+    width: 100%;
+  }
+  li h3 {
+    padding: 20px 0;
+    opacity: 0;
+  }
+  li .hidden {
+    opacity: 1;
+    display: block;
+    position: absolute;
+  }
+  .designer:before {
+    position: absolute;
+    top: 0;
+    left: -2000px;
+    right: -2000px;
+    bottom: 0;
+    cursor: none !important;
+  }
+
+  .button {
+    border: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    color: white;
+  }
+}
