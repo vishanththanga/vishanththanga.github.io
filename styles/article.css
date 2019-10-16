@@ -13,7 +13,6 @@
   display: flex;
   grid-template-columns: 1fr 0.5in [start] 1.25in 5in 1.25in [end] 0.5in 1fr;
   background-color: black;
-  grid-column: start / end;
 }
 
 article {
