@@ -1,3 +1,7 @@
+body {
+  font-size: calc(1em + 1vw);
+}
+
 h2,
 p {
   margin-bottom: 2.4rem;
@@ -6,7 +10,7 @@ p {
 .h0 {
   font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, sans-serif;
-  font-size: 3.1rem;
+  font-size: 62px;
   font-weight: 700;
   color: #f3f3ed;
 }
@@ -14,35 +18,35 @@ p {
 h1 {
   font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, sans-serif;
-  font-size: 2.8vw;
+  font-size: 40px;
   font-weight: 700;
   color: #f3f3ed;
 }
 h2 {
   font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, sans-serif;
-  font-size: 3vw;
+  font-size: 35px;
   font-weight: 370;
   color: hsl(000, 000%, 83%);
 }
 time {
   font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, sans-serif;
-  font-size: 1.4vw;
+  font-size: 20px;
   font-weight: 700;
   color: hsla(55, 83%, 55%, 0.63);
 }
 h3 {
   font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, sans-serif;
-  font-size: 1.8vw;
+  font-size: 20px;
   font-weight: 700;
   color: hsla(55, 83%, 55%, 0.63);
 }
 p {
   font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, sans-serif;
-  font-size: 1.4vw;
+  font-size: 20px;
   line-height: 1.5em;
   font-weight: 400;
   color: #f3f3ed;
@@ -50,7 +54,7 @@ p {
 figcaption p {
   font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, sans-serif;
-  font-size: 1.5vw;
+  font-size: 20px;
   font-weight: 400;
   color: hsl(000, 000%, 83%);
 }
@@ -59,7 +63,7 @@ ul,
 ol {
   font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, sans-serif;
-  font-size: 1.5vw;
+  font-size: 20px;
   font-weight: 400;
   color: #f3f3ed;
 }
@@ -67,7 +71,7 @@ ol {
 .post-heading-large {
   font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, sans-serif;
-  font-size: 2.7vw;
+  font-size: 38px;
   font-weight: 700;
   color: #f3f3ed;
 }
@@ -75,7 +79,7 @@ ol {
 .post-heading-medium {
   font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, sans-serif;
-  font-size: 2.4vw;
+  font-size: 30px;
   font-weight: 700;
   color: #f3f3ed;
 }

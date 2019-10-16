@@ -1,8 +1,19 @@
 .recent-post {
-  padding: 0.3in 0.5in;
+  padding-top: 0.2in;
+  padding-bottom: 0.1in;
+  padding-left: 0.3in;
   display: flex;
   grid-template-columns: 1fr 0.5in [start] 1.25in 5in 1.25in [end] 0.5in 1fr;
   background-color: black;
+  grid-column: start / end;
+}
+
+.time-for-article {
+  padding: 0in 0.4in;
+  display: flex;
+  grid-template-columns: 1fr 0.5in [start] 1.25in 5in 1.25in [end] 0.5in 1fr;
+  background-color: black;
+  grid-column: start / end;
 }
 
 article {
