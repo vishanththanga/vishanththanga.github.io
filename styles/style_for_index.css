@@ -265,7 +265,7 @@ li.designer-li:hover h3 {
   content: "My thoughts.";
 }
 .spec-fic {
-  color: rgba(158, 18, 18, 0.74);
+  color: #c48f94ce;
 }
 .spec-fic:before {
   background: url(/pattern1.jpg);
@@ -282,7 +282,7 @@ li.designer-li:hover h3 {
 }
 
 .painter:before {
-  background: #1c8812;
+  background: #c4c08fe7;
 }
 .painter:after {
   content: "Hi I'm Vishanth.";
@@ -309,7 +309,7 @@ li.designer-li:hover h3 {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color:rgba(196, 165, 143, 0.623);
+  background-color: rgba(196, 165, 143, 0.623);
 }
 .designer:after {
   content: "Content I like.";
