@@ -34,14 +34,14 @@ time {
     "Helvetica Neue", Arial, sans-serif;
   font-size: 20px;
   font-weight: 700;
-  color: hsla(55, 83%, 55%, 0.63);
+  color: #c48f94ce;
 }
 h3 {
   font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, sans-serif;
-  font-size: 20px;
+  font-size: 27px;
   font-weight: 700;
-  color: hsla(55, 83%, 55%, 0.63);
+  color: #c48f94ce;
 }
 p {
   font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
@@ -96,7 +96,7 @@ blockquote {
 }
 
 a {
-  box-shadow: inset 0 -0.25em hsla(55, 83%, 55%, 0.63);
+  box-shadow: inset 0 -0.25em #c48f94ce;
 }
 
 @media (max-width: 8.5in) {
