@@ -95,9 +95,9 @@ blockquote {
   padding-left: 20px;
 }
 
-a {
-  box-shadow: inset 0 -0.25em #c48f94ce;
-}
+  a {
+    box-shadow: inset 0 -0.25em #c48f94ce;
+  }
 
 @media (max-width: 8.5in) {
   :root {
