@@ -265,8 +265,15 @@ li.designer-li:hover h3 {
 .gumroad:after {
   content: "My thoughts.";
 }
+.project {
+  color: #fff;
+  box-shadow: inset 0 -0.25em #c48f94ce;
+}
+.project:before {
+  background: url(/pattern1.jpg);
+}
 .spec-fic {
-  color: #c48f94ce;
+  color: #aeb6cf;
 }
 .spec-fic:before {
   background: url(/pattern1.jpg);
@@ -283,10 +290,10 @@ li.designer-li:hover h3 {
 }
 
 .painter:before {
-  background: #c4c08fe7;
+  background: rgba(196, 165, 143, 0.623);
 }
 .painter:after {
-  content: "Hi I'm Vishanth.";
+  content: "Content I like.";
 }
 
 .pinterest {
@@ -296,11 +303,11 @@ li.designer-li:hover h3 {
   background: #127031;
 }
 .pinterest:after {
-  content: "Content I like.";
+  content: "Hi I'm Vishanth.";
 }
 
 .designer {
-  color: white;
+  color: #fff;
   background: #000;
 }
 .designer:before {
@@ -310,10 +317,10 @@ li.designer-li:hover h3 {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(196, 165, 143, 0.623);
+  background-color: #000;
 }
 .designer:after {
-  content: "Content I like.";
+  content: "Hi I'm Vishanth.";
   position: absolute;
   left: 0;
 }
@@ -374,7 +381,6 @@ li.designer-li:hover h3 {
     bottom: 0;
     cursor: none !important;
   }
-
   .button {
     border: 0;
     width: 100%;
@@ -382,4 +388,5 @@ li.designer-li:hover h3 {
     position: absolute;
     color: white;
   }
+
 }
