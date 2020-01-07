@@ -27,7 +27,7 @@ article * {
 }
 
 .extra-space {
-  margin-bottom: 1em;
+  margin-bottom: 1.5em;
 }
 
 @media (max-width: 8.5in) {
